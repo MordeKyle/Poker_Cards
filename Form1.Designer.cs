@@ -141,6 +141,7 @@
             this.Controls.Add(this.queenHeartsBox);
             this.Controls.Add(this.aceSpadesBox);
             this.Controls.Add(this.titleLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Card Identifier";
             this.Load += new System.EventHandler(this.Form1_Load);
