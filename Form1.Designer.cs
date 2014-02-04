@@ -63,7 +63,7 @@
             this.aceSpadesBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.aceSpadesBox.TabIndex = 1;
             this.aceSpadesBox.TabStop = false;
-            this.aceSpadesBox.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.aceSpadesBox.Click += new System.EventHandler(this.aceSpadesBox_Click);
             // 
             // queenHeartsBox
             // 
@@ -74,7 +74,7 @@
             this.queenHeartsBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.queenHeartsBox.TabIndex = 2;
             this.queenHeartsBox.TabStop = false;
-            this.queenHeartsBox.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.queenHeartsBox.Click += new System.EventHandler(this.queenHeartsBox_Click);
             // 
             // blackJokerBox
             // 
@@ -85,7 +85,7 @@
             this.blackJokerBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.blackJokerBox.TabIndex = 3;
             this.blackJokerBox.TabStop = false;
-            this.blackJokerBox.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.blackJokerBox.Click += new System.EventHandler(this.blackJokerBox_Click);
             // 
             // answerLabel
             // 

@@ -17,17 +17,17 @@ namespace Poker_Cards
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void aceSpadesBox_Click(object sender, EventArgs e)
         {
             answerLabel.Text = "Ace of Spades";
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void queenHeartsBox_Click(object sender, EventArgs e)
         {
             answerLabel.Text = "Queen of Hearts";
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void blackJokerBox_Click(object sender, EventArgs e)
         {
             answerLabel.Text = "The Black Joker";
         }
